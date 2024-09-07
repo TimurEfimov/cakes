@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 1180px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.header {
+}
+
+.header__background-img {
+  background-image: url("./img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__name {
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 143%;
+  padding-top: 47px;
+}
+
+.nav__info {
+  display: flex;
+}
+
+.info__address {
+  display: flex;
+  max-width: 150px;
+  max-height: 36px;
+  padding-top: 46px;
+}
+
+.address {
+  font-size: 12px;
+  line-height: 150%;
+  margin-left: 13px;
+}
+
+.info__number {
+  max-width: 230px;
+  max-height: 50px;
+  padding-top: 37px;
+  margin-left: 70px;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 152%;
+}
+
+.number__img {
+  margin-right: 15px;
+}
+
+.number__time {
+  font-size: 13px;
+  line-height: 150%;
+  margin-left: 35px;
+}
+
+.header__welcome {
+  padding-top: 230px;
+}
+
+.welcome__subtitle {
+  color: rgb(46, 54, 62);
+  background-color: rgb(242, 246, 250);
+  padding: 10px 18px;
+  border-radius: 5px;
+  width: 95px;
+  font-size: 11px;
+  line-height: 150%;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.welcome__title {
+  max-width: 647px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1px;
+  padding: 24px 0;
+}
+
+.welcome__desc {
+  max-width: 545px;
+  font-size: 24px;
+  line-height: 143%;
+}
+
+.welcome__btn {
+  display: flex;
+}
+
+.btn {
+  color: rgb(46, 54, 62);
+  background-color: rgb(254, 216, 76);
+  padding: 30px 50px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 152%;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.info__btn {
+  max-width: 150px;
+  font-size: 15px;
+  line-height: 160%;
+  margin-top: 60px;
+}
