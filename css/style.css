@@ -88,9 +88,10 @@ a {
 
 .header__welcome {
   padding-top: 230px;
+  padding-bottom: 525px;
 }
 
-.welcome__subtitle {
+.subtitle {
   color: rgb(46, 54, 62);
   background-color: rgb(242, 246, 250);
   padding: 10px 18px;
@@ -98,7 +99,6 @@ a {
   width: 95px;
   font-size: 11px;
   line-height: 150%;
-  letter-spacing: 10%;
   text-transform: uppercase;
   text-align: center;
 }
@@ -133,6 +133,7 @@ a {
   border-radius: 8px;
   margin-top: 40px;
   margin-right: 20px;
+  display: inline-block;
 }
 
 .info__btn {
@@ -201,39 +202,75 @@ a {
   background-color: gold;
 }
 
-.cart1 {
-  grid-area: cart1;
-}
-.cart2 {
-  grid-area: cart2;
-}
-.cart3 {
-  grid-area: cart3;
-}
-.cart4 {
-  grid-area: cart4;
-}
-.cart5 {
-  grid-area: cart5;
-}
-.cart6 {
-  grid-area: cart6;
-}
-.cart7 {
-  grid-area: cart7;
-}
-.cart8 {
-  grid-area: cart8;
-}
-.cart9 {
-  grid-area: cart9;
-}
-
 .main__list-cake {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: 'cart1 cart2 cart3'
-  'cart4 cart5 cart6'
-  'cart7 cart8 cart9';
 }
+
+.cooking__background-img {
+  background-image: url("./img/Group\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cooking__text {
+  padding: 440px 0 600px 700px;
+  max-width: 481px;
+}
+
+.cooking__text .subtitle {
+  width: 225px;
+}
+
+.cooking__title {
+  padding: 24px 0;
+  font-weight: 500;
+}
+
+.cooking__desc {
+  font-size: 21px;
+  line-height: 143%;
+  letter-spacing: -0.3px;
+}
+
+.baker {
+  color: #2E363E;
+}
+.baker__bg-img {
+  background-image: url("./img/Контент.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.baker__text {
+  width: 580px;
+  padding-top: 100px;
+  padding-bottom: 180px;
+}
+.subtitle {
+  width: 190px;
+}
+.baker__title {
+  padding: 24px 0px 36px 0px;
+  font-weight: 500;
+}
+.baker__list {
+  width: 440px;
+  list-style: inherit;
+}
+.baker__list-desc {
+  margin-bottom: 30px;
+  color: rgb(46, 54, 62);
+  font-size: 18px;
+  line-height: 150%;
+}
+.baker .btn {
+  margin-top: 10px;
+}
+
+.baker__list-desc::marker {
+  background-color: rgb(93, 106, 251);
+  width: 10px;
+  height: 10px;
+}
+
